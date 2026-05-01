@@ -8,7 +8,7 @@ import docx
 app = Flask(__name__)
 
 # Groq API Anahtarın
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 def read_file(file):
     if not file or file.filename == '':
